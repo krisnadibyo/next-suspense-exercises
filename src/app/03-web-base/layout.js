@@ -4,6 +4,7 @@ import { Kanit } from 'next/font/google';
 import SiteHeader from './SiteHeader';
 import SiteFooter from './SiteFooter';
 import './styles.css';
+import Spinner from '@/components/Spinner';
 
 const primaryFont = Kanit({
   weight: ['300', '500'],
